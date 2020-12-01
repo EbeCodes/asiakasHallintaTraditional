@@ -1,0 +1,78 @@
+table { 
+        border-collapse: collapse;
+        width: 50%;
+      }
+
+th {
+	font-family: Arial;
+	padding: 10px;
+	background-color: rgb(255, 191, 128);
+	border: 0px;
+	color: white;
+	text-align: left;
+	text-shadow: 1px 1px 1px black;
+}
+
+td {
+	font-family: Arial;
+	font-size: 11pt;
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+	background-color: rgb(200, 200, 200);
+
+}
+tr:nth-child(even) {
+	background-color: #f5f5f5;
+}
+
+tr:nth-child(even):hover {
+	background-color: rgb(200, 200, 200);
+}
+
+.menucontainer {
+	text-align: right;
+}
+
+.menuitem{
+	color: white;
+	text-decoration: none;
+	text-transform:uppercase;
+}
+
+.menuitem:hover{
+	background-clip: black;
+	color: black;
+}
+
+.poista:hover{
+	color: red;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.muuta{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.poista{
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.muuta:hover{
+	color: orange;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.ilmo{
+	font-family: Arial;
+	font-size: 11pt;
+}
